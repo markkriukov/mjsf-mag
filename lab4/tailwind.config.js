@@ -1,0 +1,23 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        ink: '#14161B',
+        deep: '#1E2129',
+        surface: '#F1F3F5',
+        edge: '#DCE0E5',
+        muted: '#6B7280',
+        paper: '#FFFFFF',
+        accent: '#2EC4B6',
+        client: '#FF6B35',
+      },
+    },
+  },
+  plugins: [],
+}
+
